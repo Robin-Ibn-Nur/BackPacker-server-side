@@ -3,42 +3,36 @@
         "name": "Bangladesh",
         "image": "https://wallsdesk.com/wp-content/uploads/2016/11/Dhaka-Wallpapers-HD.jpg",
         "Price": "450",
-        "Description": "Bangladesh, country of south-central Asia, located in the delta of the Padma (Ganges [Ganga]) and Jamuna (Brahmaputra) rivers in the northeastern part of the Indian subcontinent. The riverine country of Bangladesh (“Land of the Bengals”) is one of the most densely populated countries in the world, and its people are predominantly Muslim. With the partition of India in 1947, it became the Pakistani province of East Bengal (later renamed East Pakistan), one of five provinces of Pakistan, separated from the other four by 1,100 miles (1,800 km) of Indian territory. In 1971 it became the independent country of Bangladesh, with its capital at Dhaka."
+        "description": "Bangladesh, country of south-central Asia, located in the delta of the Padma (Ganges [Ganga]) and Jamuna (Brahmaputra) rivers in the northeastern part of the Indian subcontinent. The riverine country of Bangladesh (“Land of the Bengals”) is one of the most densely populated countries in the world, and its people are predominantly Muslim. With the partition of India in 1947, it became the Pakistani province of East Bengal (later renamed East Pakistan), one of five provinces of Pakistan, separated from the other four by 1,100 miles (1,800 km) of Indian territory. In 1971 it became the independent country of Bangladesh, with its capital at Dhaka."
     },
     {
         "name": "Italy",
         "image": "https://img.freepik.com/free-photo/beautiful-shot-famous-roman-colosseum-amphitheater-breathtaking-sky-sunrise_181624-6998.jpg?w=740&t=st=1667888719~exp=1667889319~hmac=97da21e57c79cb27cba89097ad65ca0f87464aa4ad32e5856d40020dacc84f0b",
         "Price": "550",
-        "Description": "Italy's fortes extend beyond its galleries, wardrobes and dining rooms. The country is one of nature's masterpieces, with extraordinary natural diversity matched by few. From the north's icy Alps and glacial lakes to the south's fiery craters and turquoise grottoes, this is a place for doing as well as seeing. One day you're tearing down Courmayeur's powdery slopes, the next you could be galloping across the marshes of the Maremma, or diving in coral-studded Campanian waters. Not bad for a country not much bigger than Arizona."
+        "description": "Italy's fortes extend beyond its galleries, wardrobes and dining rooms. The country is one of nature's masterpieces, with extraordinary natural diversity matched by few. From the north's icy Alps and glacial lakes to the south's fiery craters and turquoise grottoes, this is a place for doing as well as seeing. One day you're tearing down Courmayeur's powdery slopes, the next you could be galloping across the marshes of the Maremma, or diving in coral-studded Campanian waters. Not bad for a country not much bigger than Arizona."
     },
     {
         "name": "America",
         "image": "https://images2.minutemediacdn.com/image/upload/c_crop,h_1194,w_2121,x_0,y_10/v1554921036/shape/mentalfloss/92248-istock-849380730.jpg?itok=i-npUY14",
         "Price": "650",
-        "Description": "The United States of America (U.S.A. or USA), commonly known as the United States (U.S. or US) or America, is a country located in North America. It consists of 50 states, a federal district, five major unincorporated territories, nine Minor Outlying Islands,[j] and 326 Indian reservations. It is the third-largest country by both land and total area.[d] The United States shares land borders with Canada to its north and with Mexico to its south. It has maritime borders with the Bahamas, Cuba, Russia, and other nations.[k] With a population of over 331 million,[e] it is the third most populous country in the world. The national capital is Washington, D.C., and the most populous city and financial center is New York City."
-    },
-    {
-        "name": "France",
-        "image": "https://img.freepik.com/premium-photo/world-famous-eiffel-tower-city-center-paris-france_137125-744.jpg?w=740",
-        "Price": "750",
-        "Description": "France, officially the French Republic, is a transcontinental country predominantly located in Western Europe and spanning overseas regions and territories in the Americas and the Atlantic, Pacific and Indian Oceans."
+        "description": "The United States of America (U.S.A. or USA), commonly known as the United States (U.S. or US) or America, is a country located in North America. It consists of 50 states, a federal district, five major unincorporated territories, nine Minor Outlying Islands,[j] and 326 Indian reservations. It is the third-largest country by both land and total area.[d] The United States shares land borders with Canada to its north and with Mexico to its south. It has maritime borders with the Bahamas, Cuba, Russia, and other nations.[k] With a population of over 331 million,[e] it is the third most populous country in the world. The national capital is Washington, D.C., and the most populous city and financial center is New York City."
     },
     {
         "name": "India",
         "image": "https://img.freepik.com/free-photo/mesmerizing-shot-famous-historic-taj-mahal-agra-india_181624-16028.jpg?w=740&t=st=1667888112~exp=1667888712~hmac=8dea2d128e6b0ae5a6cd85faf3375a8cbf5f82d72e1c0918c5a1a9d10b53faba",
         "Price": "850",
-        "Description": "India, country that occupies the greater part of South Asia. Its capital is New Delhi, built in the 20th century just south of the historic hub of Old Delhi to serve as India's administrative centre. Its government is a constitutional republic that represents a highly diverse population consisting of thousands of ethnic groups and likely hundreds of languages. With roughly one-sixth of the world's total population, India is the second most populous country, after China."
+        "description": "India, country that occupies the greater part of South Asia. Its capital is New Delhi, built in the 20th century just south of the historic hub of Old Delhi to serve as India's administrative centre. Its government is a constitutional republic that represents a highly diverse population consisting of thousands of ethnic groups and likely hundreds of languages. With roughly one-sixth of the world's total population, India is the second most populous country, after China."
     },
     {
-        "name": "Japanese-日本",
+        "name": "Japan",
         "image": "https://img.freepik.com/free-photo/cherry-blossoms-spring-chureito-pagoda-fuji-mountain-sunset-japan_335224-215.jpg?w=740&t=st=1667889586~exp=1667890186~hmac=4a37f95361b7684d6c723bf7c0f1fdf8bb4af6e645aca113c0a3908b9f42a1ec",
         "Price": "950",
-        "Description": "Japan, island country lying off the east coast of Asia. It consists of a great string of islands in a northeast-southwest arc that stretches for approximately 1,500 miles (2,400 km) through the western North Pacific Ocean. Nearly the entire land area is taken up by the country's four main islands; from north to south these are Hokkaido (Hokkaidō), Honshu (Honshū), Shikoku, and Kyushu (Kyūshū). Honshu is the largest of the four, followed in size by Hokkaido, Kyushu, and Shikoku. In addition, there are numerous smaller islands, the major groups of which are the Ryukyu (Nansei) Islands (including the island of Okinawa) to the south and west of Kyushu and the Izu, Bonin (Ogasawara), and Volcano (Kazan) islands to the south and east of central Honshu. The national capital, Tokyo (Tōkyō), in east-central Honshu, is one of the world's most populous cities"
+        "description": "Japan, island country lying off the east coast of Asia. It consists of a great string of islands in a northeast-southwest arc that stretches for approximately 1,500 miles (2,400 km) through the western North Pacific Ocean. Nearly the entire land area is taken up by the country's four main islands; from north to south these are Hokkaido (Hokkaidō), Honshu (Honshū), Shikoku, and Kyushu (Kyūshū). Honshu is the largest of the four, followed in size by Hokkaido, Kyushu, and Shikoku. In addition, there are numerous smaller islands, the major groups of which are the Ryukyu (Nansei) Islands (including the island of Okinawa) to the south and west of Kyushu and the Izu, Bonin (Ogasawara), and Volcano (Kazan) islands to the south and east of central Honshu. The national capital, Tokyo (Tōkyō), in east-central Honshu, is one of the world's most populous cities"
     },
     {
-        "name": "Korean-한국인",
+        "name": "South Korea",
         "image": "https://img.freepik.com/premium-photo/aerial-view-downtown-dubai_255175-174.jpg?w=740",
         "Price": "1050",
-        "Description": "Dubai, also spelled Dubayy, city and capital of the emirate of Dubai, one of the wealthiest of the seven emirates that constitute the federation of the United Arab Emirates, which was created in 1971 following independence from Great Britain. There are several theories about the origin of the name Dubai. One associates it with the daba—a type of locust that infests the area—while another holds that it refers to a market that existed near the city. In recent years Dubai has been compared to Singapore and Hong Kong and is often regarded as the Middle East's premier entrepôt. Area 13.5 square miles (35 square km). Pop. (2017 est.) 2,919,178."
+        "description": "Dubai, also spelled Dubayy, city and capital of the emirate of Dubai, one of the wealthiest of the seven emirates that constitute the federation of the United Arab Emirates, which was created in 1971 following independence from Great Britain. There are several theories about the origin of the name Dubai. One associates it with the daba—a type of locust that infests the area—while another holds that it refers to a market that existed near the city. In recent years Dubai has been compared to Singapore and Hong Kong and is often regarded as the Middle East's premier entrepôt. Area 13.5 square miles (35 square km). Pop. (2017 est.) 2,919,178."
     }
 ]
