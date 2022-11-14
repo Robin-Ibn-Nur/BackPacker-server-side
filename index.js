@@ -52,7 +52,6 @@ async function run() {
         // using jwt
         app.post('/jwt', async (req, res) => {
             const user = req.body;
-            console.log(user);
             const token = jwt.sign(user, process.env.SECRET_ACCESS_TOKEN, { expiresIn: '1d' })
             res.send({ token })
         })
@@ -64,6 +63,16 @@ async function run() {
             res.send(services);
 
         });
+
+        // add service
+        app.post('/service', async (req, res) => {
+            const addService = req.body
+            console.log(addService)
+            const result = await serviceCollection.insertOne(addService);
+            console.log(result)
+            res.send(result);
+        })
+
 
         app.get('/service', async (req, res) => {
             const query = {};
@@ -78,17 +87,15 @@ async function run() {
             res.send(service);
         });
 
-        // const cursor = client.db("sample_airbnb").collection("listingsAndReviews").find(
-        //     {
-        //         bedrooms: { $gte: minimumNumberOfBedrooms },
-        //         bathrooms: { $gte: minimumNumberOfBathrooms }
-        //     }
-        // ).sort({ last_review: -1 });
-
-
-
         // reviewers api
-        app.get('/reviewer', async (req, res) => {
+        app.get('/reviewer', verifyJWT, async (req, res) => {
+
+            const decoded = req.decoded;
+
+            if (decoded.email !== req.query.email) {
+                res.status(403).send({ message: 'unauthorized access' })
+            }
+
             let query = {};
             if (req.query.email) {
                 query = {
@@ -120,13 +127,13 @@ async function run() {
             const id = req.params.id;
             const filter = { _id: ObjectId(id) }
             const oldMessage = req.body;
-            const option = { upsert: true }
+            const options = { upsert: true };
             const updatedMessage = {
                 $set: {
                     message: oldMessage.message
                 }
             }
-            const result = await reviewerCollection.updateOne(filter, updatedMessage, option);
+            const result = await reviewerCollection.updateOne(filter, updatedMessage, options);
             res.send(result)
         })
 
