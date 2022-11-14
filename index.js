@@ -88,13 +88,13 @@ async function run() {
         });
 
         // reviewers api
-        app.get('/reviewer', verifyJWT, async (req, res) => {
+        app.get('/reviewer', async (req, res) => {
 
-            const decoded = req.decoded;
+            // const decoded = req.decoded;
 
-            if (decoded.email !== req.query.email) {
-                res.status(403).send({ message: 'unauthorized access' })
-            }
+            // if (decoded.email !== req.query.email) {
+            //     res.status(403).send({ message: 'unauthorized access' })
+            // }
 
             let query = {};
             if (req.query.email) {
