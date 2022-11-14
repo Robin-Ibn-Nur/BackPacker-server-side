@@ -42,7 +42,7 @@ async function run() {
         const serviceCollection = client.db('travel').collection('services');
         const reviewerCollection = client.db('travel').collection('reviewer')
 
-        // using jwt
+        // using jwt in login section
         app.post('/jwt', async (req, res) => {
             const user = req.body;
             const token = jwt.sign(user, process.env.SECRET_ACCESS_TOKEN, { expiresIn: '1d' })
